@@ -1,0 +1,20 @@
+[project]
+title = "Student Social Media Usage Analysis"
+version = "1.0.0"
+port = 8501
+slug = "{project_slug}"
+entrypoint = "student.py"
+
+[branding]
+name = "Preswald Project"
+logo = "images/logo.png"
+favicon = "images/favicon.ico"
+primaryColor = "#209CEE"
+
+[data.students_csv]
+type = "csv"
+path = "data/students.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 
